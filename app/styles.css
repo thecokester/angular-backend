@@ -1,0 +1,35 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-image: url("http://www.seriouswheels.com/cars/vanda/2017-vanda-dendrobium/index.html#&gid=1&pid=6");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: teal;
+}
+
+
+.individual{
+    border: gold solid 2px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.list-img {
+    width: 200px;    
+}
+
+#heroes-logo {
+    width: 70em;
+}
+
+#button-div{
+    margin-top: 40px;
+}
+
+button {
+    border: goldenrod 4px;
+    background-color: tan;
+    width: 250px;
+    height: 50px;
+    transform: translateX(30%)
+}

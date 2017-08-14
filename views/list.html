@@ -1,0 +1,10 @@
+<h1 class="header">WoW Heroes from Heroes of the Storm</h1>
+<div ng-controller="listReq" >
+    <div ng-click="goToSingle(list.id)" ng-repeat="list in toonList" class="container"> 
+        <div class="individual">       
+            <h2 > {{ list.name }} </h2>
+            <h3> {{ list.className }} </h3>
+            <img  class="list-img" ng-src="{{ list.img }}" alt="hero from Heroes of the Storm" />
+        </div> 
+    </div>
+ </div>
